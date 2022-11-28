@@ -24,5 +24,15 @@ group :jekyll_plugins do
   gem 'jekyll'
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
+  gem 'jekyll-github-metadata'
+  gem 'jemoji'
+  gem 'unicode_utils'
+  gem 'webrick'
   gem 'hawkins'
+  gem 'faraday-retry'
+end
+
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem 'tzinfo', '~> 1.2'
+  gem 'tzinfo-data'
 end
